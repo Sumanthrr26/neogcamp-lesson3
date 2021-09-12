@@ -1,13 +1,16 @@
-body
-{
-    color:red;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
 }
 
-#lib-header{
-    color: blue;
+.container
+{
+ padding-left: 1rem;
+ padding-right: 1rem;
 }
 
-.para
-{
-    color: royalblue;
+.container-center{
+ max-width: 600px;
+ margin: auto;
 }

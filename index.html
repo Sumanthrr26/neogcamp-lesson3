@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component library</title>
-    <link href="style.css" rel='stylesheet'/>
+    <link href="style.css" rel='stylesheet' />
 </head>
 
 <body>
-    <h1 > Sumanth Component Library</h1>
+    <h1> Sumanth Component Library</h1>
 
     <p> I am attending neogcamp level 0 and i want to make a library from the lesson 3 of neogcamp . This will make my
         projects look great and useful. </p>
@@ -23,23 +23,24 @@
     <h2>This is smaller than than h1</h2>
     <p> This is normal text and will wrap like a paragraph.</p>
     <p>This paragraph will have a <strong> bold </strong> text</p>
-    <small > This is finally the smallest text in here . </small>
+    <small> This is finally the smallest text in here . </small>
 
     <hr>
 
     <h2>@Container</h2>
 
     <h3> fluid container </h3>
-    <div class = "container">This is a specified container which will be centered and will go until specfied width</div>
+    <div class="container">This is a specified container which will be centered and will go until specfied width</div>
     <h3> centered container </h3>
-    <div class = "container-center">This is a centered container which will be centered and will go until specfied width</div>
+    <div class="container-center">This is a centered container which will be centered and will go until specfied width
+    </div>
 
 
     <hr>
 
     <h2> @Links </h2>
-    <a class = "link link-primary" href="/"> Primary Link </a>
-    <a class = "link link-secondary" href="/"> Secondary Link </a>
+    <a class="link link-primary" href="/"> Primary Link </a>
+    <a class="link link-secondary" href="/"> Secondary Link </a>
 
     <hr>
 
@@ -63,9 +64,9 @@
     <h3> @Reverse ordered list</h3>
 
     <ol reversed>
-        <li >milk</li>
-        <li >eggs</li>
-        <li >oil</li>
+        <li>milk</li>
+        <li>eggs</li>
+        <li>oil</li>
     </ol>
 
     <hr>
@@ -74,13 +75,13 @@
         <div class="nav-brand"> IAmBrand</div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
-                <a class = "link link-active" href="/"> HOME </a>
-            </li>
-            <li class="list-item-inline" > 
-                <a class = "link " href="/"> PROJECTS </a>
+                <a class="link link-active" href="/"> HOME </a>
             </li>
             <li class="list-item-inline">
-                <a class = "link" href="/"> BLOGS </a>
+                <a class="link " href="/"> PROJECTS </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/"> BLOGS </a>
             </li>
         </ul>
     </nav>
@@ -88,35 +89,41 @@
     <h2>@header</h2>
     <header class="hero">
         <img class="hero-img" src="images/hero.svg.svg">
-        <h1 class="hero-heading"> Sumanth the <span class="heading-inverted"> web developer</span>  </h1>
+        <h1 class="hero-heading"> Sumanth the <span class="heading-inverted"> web developer</span> </h1>
     </header>
 
     <hr>
-    <h2> @section </h2>
+    <h2> @ normal section </h2>
 
-    <section>
-        <h3> white section </h3>
-        <p> This section will white section </p>
+    <section class="section">
+        <div class="container container-center">
+            <h1> heading inside section </h1>
+        <p> We are an open community of developers building resources for a better Web, regardless of brand, browser, or platform.  </p>
+        </div>
+        
     </section>
-
-    <section>
-        <h3> off-white section </h3>
-        <p> This section will gray section </p>
+    <h2> @off whitesection </h2>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1> off-white section </h1>
+        <p> We are an open community of developers building resources for a better Web, regardless of brand, browser, or platform.  </p>
+        </div>
+        
     </section>
     <hr>
 
     <h2> @footer </h2>
-    <footer>
+    <footer class="footer container">
         <div> Some small heading in bottom </div>
-    </footer>
-    <ul>
+    
+    <ul class="social-links list-non-bullet">
 
-        <li> Social One </li>
-        <li> Social Two </li>
-        <li> Social Three </li>
+        <li class="list-item-inline"> <a class="link" href="/"> Social One</a> </li>
+        <li class="list-item-inline"> <a class="link" href="/">Social Two</a> </li>
+        <li class="list-item-inline"> <a class="link" href="/">Social Three</a>  </li>
     </ul>
-    <div style="height : 20vh"></div>
-
+    
+</footer>
 </body>
 
 </html>
